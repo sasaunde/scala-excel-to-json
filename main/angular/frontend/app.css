@@ -1,0 +1,85 @@
+/* app css stylesheet */
+
+.scrollArea { overflow : auto; height:450px; }
+
+.map-title {
+	font-weight: 700;
+	font-size: 1.2em;
+	text-align: left;
+	font-family: sans-serif;
+	float: left;
+	align: left;
+}
+
+.labels {
+   color: red;
+   background-color: white;
+   font-family: "Lucida Grande", "Arial", sans-serif;
+   font-size: 10px;
+   font-weight: bold;
+   text-align: center;
+   width: 70px;     
+   //height: 20px;
+   border: 2px solid black;
+   white-space: nowrap;
+ }
+
+
+#infoWindowStyle { min-width: 150px; }
+#map_canvas { height: 600px; width: 500px;}
+
+.wrapper {
+	float: left;
+	width: 50%;
+}
+
+.padout {
+    margin-left: 90px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #0b97c4;
+}
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+.chart {
+ width: 500px;
+ height: 500px;
+}
+
+.chart2 {
+ width: 300px;
+ height: 300px;
+}
+
+footer {
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
